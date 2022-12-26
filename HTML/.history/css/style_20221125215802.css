@@ -1,0 +1,27 @@
+.header {
+    width: 600px;
+    height: 180px;
+    background-color: #ca1019;
+}
+
+.main {
+    display: flex;
+}
+
+.left {
+    width: 420px;
+    height: 480px;
+    background-color: #309c77;
+}
+
+.right {
+    width: 180px;
+    height: 480px;
+    background-color: #29b098;
+}
+
+.footer {
+    width: 400px;
+    height: 100px;
+    background-color: yellow;
+}

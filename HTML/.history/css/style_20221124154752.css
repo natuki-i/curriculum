@@ -1,0 +1,10 @@
+h1 {
+    color: red;
+    background-color: yellow;
+    width: 500px;
+    height: 200px;
+    margin-left: 200px;
+}
+p {
+    font-size: 20px;
+}

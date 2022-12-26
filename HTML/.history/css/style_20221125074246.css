@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 「headerの中のulタグである」と明示的に指定する書き方です。 */
+.header ul{
+    display: flex;
+    justify-content: space-between;
+}

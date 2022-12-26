@@ -1,0 +1,19 @@
+.items {
+    display: flex;
+}
+
+.item {
+    width: 180px;
+}
+
+.pic {
+    width: 150px;
+    height: 100px;
+    background-color: blue;
+    margin: 0 auto;
+}
+
+.item h1 {
+    text-align: center;
+    margin-top: 0;
+}

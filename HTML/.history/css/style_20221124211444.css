@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    align-items: center;
+    height: 500px; /* 縦方向に関しては、高さを与えてあげる必要があります */
+}
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}

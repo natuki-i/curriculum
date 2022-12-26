@@ -1,0 +1,20 @@
+.items {
+    display: flex;
+}
+
+.item {
+    width: 180px;
+}
+
+.pic {
+    width: 150px;
+    height: 100px;
+    /* background-color: blue; これはもう要らないので消してOKです*/
+    margin: 0 auto;
+    display: block;
+}
+
+.item h1 {
+    text-align: center;
+    margin-top: 0;
+}

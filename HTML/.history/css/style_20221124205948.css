@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px; /* 幅を決める */
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}

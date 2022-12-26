@@ -1,0 +1,17 @@
+h1 {
+    color: red;
+    background-color: yellow;
+    width: 500px;
+    height: 200px;
+    margin-left: 200px;
+    padding-left: 300px;
+}
+p {
+    font-size: 20px;
+}
+.target {
+    width: 400px;
+    height: 100px;
+    background-color: yellow;
+    border: solid 1px black;
+}

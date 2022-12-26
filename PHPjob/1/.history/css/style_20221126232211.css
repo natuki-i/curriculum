@@ -1,0 +1,107 @@
+.header {
+    width: 400px;
+    height: 100px;
+    background-color: #141f40;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.h-boxs {
+    width: 160px;
+    height: 60px;
+    margin-right: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.h-box {
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+}
+
+.main {
+    display: flex;
+}
+
+.left {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+}
+
+.right {
+    width: 250px;
+    height: 250px;
+    background-color: #8c2727;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mr-boxs {
+    width: 150px;
+    height: 170px;
+    margin: 40px 60px 40px 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mr-box {
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+    border-width: thick;
+    border-style: solid;
+    border-color: white;
+}
+
+.footer {
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;
+}
+
+@media screen and (max-width: 479px) {
+/* スマホ向けスタイル */
+
+.header {
+    width: 200px;
+    height: 200px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main {
+    width: 200px;
+    height: 300px;
+    flex-direction: column;
+}
+
+.left {
+    width: 200px;
+    height: 100px;
+}
+
+.right {
+    width: 200px;
+    height: 210px;
+}
+
+.mr-boxs {
+    width: 150px;
+    height: 170px;
+    margin: 20px 30px;
+}
+
+.footer {
+    width: 200px;
+    height: 100px;
+}
+
+}
