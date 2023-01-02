@@ -25,10 +25,12 @@
 
     $right = "正解！";
     $wrong = "残念・・・";
-    $results = array();
+    $results =array();
+
+
 
     for ($i = 1; $i <= $noq; $i++) {
-        if (${'answer' . $i} == ${'correct' . $i}) {
+        if ("$answer".$i == "$correct".$i) {
             $results[] = $right;
         } else {
             $results[] = $wrong;
@@ -42,18 +44,18 @@
 
     <p>①の答え</p>
     <!--作成した関数を呼び出して結果を表示-->
-    <?php
-    $i2 = 0;
-    echo $results[$i2++]; ?>
+    <?php echo $results[$i2=0]; ?>
 
     <p>②の答え</p>
     <!--作成した関数を呼び出して結果を表示-->
-    <?php echo $results[$i2++]; ?>
+    <?php echo $results[$i2 ++]; ?>
 
     <p>③の答え</p>
     <!--作成した関数を呼び出して結果を表示-->
-    <?php echo $results[$i2++]; ?>
+    <?php echo $results[$i2 ++]; ?>
 
+    <?php
+    var_dump($results);?>
 </body>
 
 </html>

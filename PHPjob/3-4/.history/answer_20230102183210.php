@@ -21,17 +21,20 @@
     $st_name = $_POST['st_name'];
 
     $noq = substr_count(serialize($_POST), 'correct');
+
     //選択した回答と正解が一致していれば「正解！」、一致していなければ「残念・・・」と出力される処理を組んだ関数を作成する
 
     $right = "正解！";
     $wrong = "残念・・・";
-    $results = array();
+
+    $i = 1;
+var_dump('$answer'.$i);
 
     for ($i = 1; $i <= $noq; $i++) {
-        if (${'answer' . $i} == ${'correct' . $i}) {
-            $results[] = $right;
+        if ('$answer'.$i == '$correct'.$i) {
+            '$result'.$i = $right;
         } else {
-            $results[] = $wrong;
+            '$result'.$i = $wrong;
         }
     } ?>
 
@@ -42,17 +45,15 @@
 
     <p>①の答え</p>
     <!--作成した関数を呼び出して結果を表示-->
-    <?php
-    $i2 = 0;
-    echo $results[$i2++]; ?>
+    <?php echo $result1; ?>
 
     <p>②の答え</p>
     <!--作成した関数を呼び出して結果を表示-->
-    <?php echo $results[$i2++]; ?>
+    <?php echo $result2; ?>
 
     <p>③の答え</p>
     <!--作成した関数を呼び出して結果を表示-->
-    <?php echo $results[$i2++]; ?>
+    <?php echo $result3; ?>
 
 </body>
 
