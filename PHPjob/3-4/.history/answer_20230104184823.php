@@ -21,8 +21,7 @@
     $st_name = $_POST['st_name'];
 
     //選択した回答と正解が一致していれば「正解！」、一致していなければ「残念・・・」と出力される処理を組んだ関数を作成する
-    function judge($answer, $correct)
-    {
+    function judge($answer,$correct) {
         if ($answer == $correct) {
             echo "正解！";
         } else {
