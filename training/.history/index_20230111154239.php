@@ -11,3 +11,5 @@
         echo 'Error:' . $e->getMessage();
         die();
     }
+    ?>
+
