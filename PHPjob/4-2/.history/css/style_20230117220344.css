@@ -1,0 +1,61 @@
+.clearfix::after {
+    content: “”;
+    display: block;
+    clear: both;
+    }
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.h_logo {
+    width: 200px;
+    height: 120px;
+    background-color: #add8e6;
+}
+
+.h_logo img {
+    object-fit:contain;
+    width: 100%;
+    height: 100%;
+}
+
+.h_right {
+    display: flex;
+    flex-flow: column;
+    text-align: right;
+}
+
+.h_r_top {
+    display:table;
+    width: 800px;
+    height: 60px;
+    background-color: #87ceeb;
+}
+
+.h_r_bottom {
+    display:table;
+    width: 800px;
+    height: 60px;
+    background-color: #00ffff;
+}
+
+.h_r_phr {
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.post_table {
+    border: solid;
+    border-color: white;
+    width: 800px;
+    background-color: #87ceeb;
+    margin: 10px auto;
+    text-align: left;
+}
+
+.tr {
+    border: solid 3px;
+    border-color: white;
+}

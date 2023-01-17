@@ -1,0 +1,29 @@
+.header {
+    width: 1000px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logo_area {
+    width: 200px;
+    height: 120px;
+    background-color: #a1d9e8;
+}
+
+.logo {
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.m_right {
+    width: 800px;
+    height: 120px;
+    background-color: #8c2727;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

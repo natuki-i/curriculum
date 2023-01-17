@@ -19,23 +19,27 @@
     $userdata = $getdata->getUserData();
     $postdata = $getdata->getPostData();
 
-    /*     var_dump($userdata);
+/*     var_dump($userdata);
     var_dump($postdata); */
 
-    function category_meaning($row)
-    {
-        $i = $row['category_no'];
-        switch ($i) {
-            case 1:
-                echo '食事';
-                break;
-            case 2:
-                echo '旅行';
-                break;
-            default:
-                echo 'その他';
-        }
+function category_meaning($row){
+    $i = $row['category_no'];
+    switch($i){
+        case 1:
+            echo '食事';
+            break;
+        case 2:
+             echo '旅行';
+             break;
+             default:
+             echo 'その他';
     }
+}
+
+
+    echo '<br>';
+    echo $userdata['last_name'] . $userdata['first_name'];
+    echo '<br>';
 
     /*     foreach ($postdata as $row) {
         echo $row["id"];
@@ -45,6 +49,7 @@
         echo $row["created"];
         echo '<br>';
     } */
+
     ?>
 
     <div class="header">
@@ -88,7 +93,7 @@
 
     <div class="footer">
         <div class="f_fr">Y&I group.inc</div>
-    </div>
+        </div>
 
 </body>
 
