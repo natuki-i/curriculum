@@ -3,6 +3,8 @@
 }
 
 .clearfix::after {
+    width: 1000px;
+    height: 120px;
     content: "";
     display: block;
     clear: both;
@@ -10,9 +12,7 @@
 
 .header {
     display: flex;
-    margin: auto;
-    width: 1000px;
-    height: 120px;
+    justify-content: center;
 }
 
 .h_logo {
@@ -71,12 +71,14 @@
 }
 
 .footer {
-    margin: auto;
-    width: 1000px;
-    height: 50px;
-    background-color: #00ced1;
+    display: flex;
+    justify-content: center;
+
 }
 
 .f_fr {
+    width: 1000px;
+    height: 50px;
+    background-color: #00ced1;
     text-align: left;
 }
